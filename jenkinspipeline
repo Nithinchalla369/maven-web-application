@@ -20,7 +20,6 @@ sshagent(['2ffb24f3-7c75-4426-bc79-2c00e55335ec']){
 }
 }
 }
-}
 catch (e) {
     // If there was an exception thrown, the build failed
     currentBuild.result = "FAILED"
